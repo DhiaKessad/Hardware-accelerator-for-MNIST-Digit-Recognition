@@ -1,0 +1,12 @@
+NET "clkp" LOC = "J9"  | IOSTANDARD = LVDS_25;
+NET "clkn" LOC = "H9"  | IOSTANDARD = LVDS_25;
+
+NET "clkp" TNM_NET = "sys_clk_pin";
+TIMESPEC "TS_sys_clk_pin" = PERIOD "sys_clk_pin" 5000 ps;
+
+NET "rst" LOC = "G26" | IOSTANDARD = LVCMOS25;
+
+NET "digit_out[0]" LOC = "AC22" | IOSTANDARD = LVCMOS25; # LED 0
+NET "digit_out[1]" LOC = "AC24" | IOSTANDARD = LVCMOS25; # LED 1
+NET "digit_out[2]" LOC = "AE22" | IOSTANDARD = LVCMOS25; # LED 2
+NET "digit_out[3]" LOC = "AE23" | IOSTANDARD = LVCMOS25;
