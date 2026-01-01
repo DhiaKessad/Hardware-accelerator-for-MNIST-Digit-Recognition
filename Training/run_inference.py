@@ -27,5 +27,6 @@ def predict_raw_hex(hex_file, model_path):
 
 if __name__ == "__main__":
     # Example usage:
-    # predict_raw_hex("digit6.hex", "mnist_weights.pth")
+    predict_raw_hex("digit6.hex", "mnist_weights.pth")
+    predict_raw_hex("digit7.hex", "mnist_weights.pth")
     pass
