@@ -1,4 +1,4 @@
-# Hardware-Accelerated MNIST Digit Recognition (Virtex-6)
+# Hardware-Accelerated Digit Recognition (Virtex-6)
 
 This repository contains a full **Hardware-Software Co-Design** pipeline for handwritten digit recognition. 
 It bridges the gap between high-level deep learning and low-level FPGA implementation by providing tools to train, quantize,
@@ -62,3 +62,4 @@ python run_inference.py
 - **Memory: Block RAM (BRAM) for weights, Distributed RAM/LUTs for biases**.
 - **Activation: ReLU (Rectified Linear Unit) implemented in RTL**.
 - **Clock: Optimized for parallel execution using DSP48E1 slices**.
+
